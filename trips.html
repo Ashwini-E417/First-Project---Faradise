@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Faradise-trips</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="style1.css" rel="stylesheet" >
+	
+		<!-- font family -->	
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat:400,700&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+ 
+ </head>
+  
+  
+ <body>
+    <!-- BOOTStrap JS Code -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	
+	<!-- Header Section caontains -logo cntact details, offers-->
+	
+	<header>
+		<div class="row">
+			<div class="col-2">
+				<img src="images\logo.png" alt="logo" id="logo" name="logo"/>
+			</div>
+			<div class="col-4" style="margin-top:10px;">
+				<h5 id="logohead">F A R A D I S E</h5>
+			</div>
+			<div class="col-4" style="margin-top:10px;" >
+				<i class="fa fa-phone"></i> &nbsp;&nbsp;
+				<h4 style="display:inline;"> 1800-123-123 </h4>
+			</div>
+			<div class="col-2">
+				<button type="button" class="btn btn-light"data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-top:5px;"> Login </button>
+			</div>
+		</div>
+	
+	<!-- Nav bar -->
+		<nav class="navbar" style="background-color:grey; color:white;" >
+		  <div class="container">
+			<span><a class="navbar-brand" href="main.html">Home</a></span>
+			<span><a class="navbar-brand" href="aboutus.html">About US</a></span>
+			<span><a class="navbar-brand" href="trips.html">Trips</a></span>
+		  </div>
+		</nav>
+</header>
+	
+	<!-- Tell user how to use use -->
+	
+	<div class="tripsdetails" align="center">
+		<div>
+		<h1> Get to know Trips </h1>
+		<p> Now there’s two ways to plan your trip—use AI or search on your own. Either way, you’ve got more than 8 million spots to discover, with over one billion traveller reviews and opinions to guide you. </p>
+		</div>
+		<div class="tripcard">
+		<i class="fa fa-map-marker"></i>
+			<p>Get personailsed itenary with AI </p>
+		</div>
+		<div class="tripcard">
+		<i class="fa fa-heart"></i>
+			<p>Save hotels, restaurants, and more </p>
+		</div>
+		<div class="tripcard">
+		<i class="fa fa-map"></i>
+			<p>See your saves on your custom map </p>
+		</div>
+		<div class="tripcard">
+		<i class="fa fa-people-carry"></i>
+			<p>Share and collab with your travel buds</p>
+		</div>
+	
+	</div>
+	
+	<!-- Testimonials that Faradiseis best option -->
+	<div class="testimonials">
+	<center>
+	<h1> Let's hear from Our customers </h1>
+		<div class="test1">
+		<img src="images\test1.png" class="testimg" />
+			<p>I planned by vacation by Faradise. It the best vacation I had. Thank you Faradise for making it happen.</p>
+		</div>
+		<div class="test1">
+		<img src="images\test2.png" class="testimg" />
+			<p>Faradise has highly professional and experience team. I highly recommend them for business vacation.</p>
+		</div>
+		<div class="test1">
+		<img src="images\test3.png" class="testimg" />
+			<p>I had no ideas of the places aroung Dubai that I wanted to explore, so Faradise planned custom tour. Excellent sevice provided.</p>
+		</div>
+		<div class="test1">
+		<img src="images\test4.jpg" class="testimg" />
+			<p>Faradise offers superior service, attention to detail and much more for your travel pleasure. My favorite travel agent!</p>
+		</div>
+	</center>
+	</div>
+	
+	<!-- footer section -->
+	
+	<footer>
+	&copy; Copyright 2024 - All Rights Reserved. <br>
+	
+			
+			This project is entirely made for illustration purpose only and made use for eduaction purpose. 
+			<br>
+			
+			for any queries please reach out to us: 1800-123-123 | <i class="fa fa-mail-bulk" ></i>
+			
+	
+	</footer>	
+	
+	<!-- Login form modal -->
+	
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" align="center">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h2 class="modal-title fs-5" id="exampleModalLabel">Login</h2>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+				<form name="Login" >
+					<input type="text" name="username" placeholder="Username" required autofocus class="input-box"/> <br>
+					<input type="password" name="password" placeholder="Password" required class="input-box"/><br><br>
+					<hr>
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="submit" class="btn btn-primary">Login</button>
+				
+				</form>
+			  </div>
+			</div>
+		  </div>
+		</div>
+  </body>
+</html>
