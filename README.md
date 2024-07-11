@@ -6,4 +6,4 @@ About us page - it display about the company and It has a form which can custome
 Trips page - It contains how which facilitates are available and few testimonials.
 
 For video which I have used in this project. Pls use this link to download it-
-https://drive.google.com/drive/folders/1m27U4pAl5afED_Q17SX_e_ZJX61vHXWV
+https://drive.google.com/drive/folders/1m27U4pAl5afED_Q17SX_e_ZJX61vHXWV?usp=sharing
